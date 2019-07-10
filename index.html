@@ -71,74 +71,76 @@
 			
 		</style>
 	
-<script>
-function validateForm() {
-  var x = document.forms["myForm"]["fname"].value;
-  if (x == "") {
-	alert("Please enter a search term.");
-	return false;
-  } 
-      if(x == "iPhone 8")
-	{
-   	 window.location = 'page2-all-iphones.html';
-	}  if (x == "iPad") {
-    	window.location = 'page2-all-ipads.html';
-	}
-	
-	 if (x == "iPhone") {
-    	window.location = 'page2-all-iphones.html';
-	}
-	
-	if (x == "iPod") {
-    	window.location = 'page2-all-ipods.html';
-	}
-	
-	 if (x == "Apple Watch") {
-    	window.location = 'page2-all-apple-watches.html';
-	}
-	
-		 if (x == "iOS") {
-    	window.location = 'page4.html';
-	}
-	
-		 if (x == "Twitter") {
-    	window.location = 'page3.html';
-	}
-	
-		 if (x == "Videos") {
-    	window.location = 'page1.html';
-	}
-	
-		 if (x == "Gallery") {
-    	window.location = 'page2.html';
-	}
-	
-		 if (x == "Home") {
-    	window.location = 'index.html';
-	}
-	
-		 if (x == "Official website") {
-    	window.location = 'https://apple.com/ie';
-	}
+		<script>
+			function validateForm() {
+			  var x = document.forms["myForm"]["fname"].value;
+			  if (x == "") {
+				alert("Please enter a search term.");
+				return false;
+			  } 
+			  
+				  if(x == "iPhone 8") {
+				 window.location = 'page2-all-iphones.html';
+				}  
+				
+				if (x == "iPad") {
+					window.location = 'page2-all-ipads.html';
+					}
+				
+				 if (x == "iPhone") {
+					window.location = 'page2-all-iphones.html';
+					}
+					
+				if (x == "iPod") {
+					window.location = 'page2-all-ipods.html';
+					}
+				
+				 if (x == "Apple Watch") {
+					window.location = 'page2-all-apple-watches.html';
+					}
+				
+				 if (x == "iOS") {
+					window.location = 'page4.html';
+					}
+				
+				 if (x == "Twitter") {
+					window.location = 'page3.html';
+					}
+				
+				 if (x == "Videos") {
+					window.location = 'page1.html';
+					}
+				
+				 if (x == "Gallery") {
+					window.location = 'page2.html';
+					}
+				
+				 if (x == "Home") {
+					window.location = 'index.html';
+					}
+				
+				 if (x == "Official website") {
+					window.location = 'https://apple.com/ie';
+					}
+				
+			  return false;
+			  
+			  }
 
-	return false;
-  }
-
-</script>
+		</script>
 
 	</head>
 	
 	<body>
 	
-	<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"></script>
+		<div id="fb-root"></div>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.3"> </script>
 	
-	<form name="myForm" onsubmit="return validateForm()" method="post" class="search">
-  Search Site: <input type="text" name="fname">
-  <input type="submit" value="Submit">
-</form>
+		<form name="myForm" onsubmit="return validateForm()" method="post" class="search">
+			Search Site: <input type="text" name="fname">
+			<input type="submit" value="Submit">
+		</form>
 
-	
 		<h2> Apple </h2>
 	
 		<a href="index.html">
@@ -175,7 +177,8 @@ function validateForm() {
 			
 			<button>
 
-Twitter Feed
+				Twitter Feed
+				
 			</button>
 			
 		</a>
